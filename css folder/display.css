@@ -1,0 +1,39 @@
+/* 
+display: none
+-----------in case of display none the whole element will be gone from the browser.
+
+opacity: 0
+-----------its similar to the rgb'a' which means opacity and it ranges from 0 to 1 where 1 is the highest opacity means no effect while below it are opacity. 
+
+visibility: hidden;
+------------it simply just hides the element and does nothing more than that
+*/
+
+
+div {
+    background: skyblue;
+    margin: 10px;
+    color:black;
+    
+}
+
+.none {
+    display: none;
+}
+
+.opacity1 {
+    opacity: 1;
+}
+.opacity5 {
+    opacity: 0.5;
+}
+.opacity0 {
+    opacity: 0;
+}
+
+.visibility {
+    visibility: hidden;
+}
+
+
+
