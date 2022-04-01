@@ -1,0 +1,25 @@
+/* 
+Background image
+*/
+
+div {
+    height: 400px;
+    color: red;
+}
+
+.bigimg{
+    background: url('/images/big.jpg');
+}
+
+.smallimg{
+    background: url('../images/small.jpg');
+    
+}
+
+.folderimg {
+    background: url('../images/here/folder.jpg');
+}
+
+
+
+
