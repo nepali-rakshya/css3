@@ -22,6 +22,7 @@ if it cannot cover the div space then it repeats.
 div {
     height: 400px;
     color: red;
+    background: skyblue;
 }
 
 /* .bigimg{
