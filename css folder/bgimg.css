@@ -1,5 +1,22 @@
 /* 
-Background image
+================Background image=============================
+
+
+==============background-repeat:round========================
+
+this property adjusts the images fit to display in the browser 
+But if the image can fit two then it will fit two of the images
+
+==============background-size:cover=================================
+
+This is similar to bg-repeat round, but incase of size it 
+fixes the size of the img fit to the div. it doesn't care if the img 
+is small of big IT WILL ADJUST ANYHOW!
+
+=============background-size:contain==========================
+
+This is similar to cover but it maintains the ASPECT RATIO but 
+if it cannot cover the div space then it repeats.
 */
 
 div {
@@ -7,18 +24,25 @@ div {
     color: red;
 }
 
-.bigimg{
+/* .bigimg{
     background: url('/images/big.jpg');
-}
+    /* background-repeat: round; 
+    background-size:  45px 50%;
+
+} */
 
 .smallimg{
+    border: 2px solid red;
     background: url('../images/small.jpg');
-    
+    background-size: 100% 50px;
 }
 
-.folderimg {
+/* .folderimg {
     background: url('../images/here/folder.jpg');
-}
+    background-repeat: round;
+    background-size: auto;
+    background-repeat: ;
+} */
 
 
 
