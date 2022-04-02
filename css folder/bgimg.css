@@ -36,6 +36,7 @@ div {
     border: 2px solid red;
     background: url('../images/small.jpg');
     background-size: 100% 50px;
+    color: blue;
 }
 
 /* .folderimg {
