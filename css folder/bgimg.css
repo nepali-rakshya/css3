@@ -30,7 +30,7 @@ div {
     background: url('/images/big.jpg');
     background-size: contain;
     /* background-repeat: round; 
-    background-size:  45px 50%;
+    background-size:  45px 50%;*/
 
 }
 
@@ -39,7 +39,7 @@ div {
     background: url('../images/small.jpg');
     /* background-size: 100% 50px; */
     color: blue;
-    background-size: contain;
+    background-size: cover;
 }
 
 .folderimg {
