@@ -26,12 +26,13 @@ div {
     
 }
 
-/* .bigimg{
+.bigimg{
     background: url('/images/big.jpg');
+    background-size: contain;
     /* background-repeat: round; 
     background-size:  45px 50%;
 
-} */
+}
 
 .smallimg{
     border: 2px solid red;
@@ -45,7 +46,7 @@ div {
     background: url('../images/here/folder.jpg');
     background-repeat: round;
     background-size: contain;
-    background-repeat: no-repeat ;
+    /* background-repeat: no-repeat ; */
 }
 
 
