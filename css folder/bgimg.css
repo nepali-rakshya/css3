@@ -44,7 +44,7 @@ div {
 .folderimg {
     background: url('../images/here/folder.jpg');
     background-repeat: round;
-    background-size: auto;
+    background-size: contain;
     background-repeat: no-repeat ;
 }
 
