@@ -1,0 +1,21 @@
+/* THE MULTIPLE BACKGROUND SYNTAX
+You can use multiple urls in a single background-image 
+separating them with commas.
+
+background-image: url(), url();
+
+The bigger image is alwyas gonna overlap the small one so take care 
+of which one you put in the beginning and latter.
+
+
+Now, you can also add size (one or two value syntax) by adding commas
+in between.
+*/
+.container {
+    border: 2px solid rgb(182, 29, 54);
+    width: 500px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-image: url(/images/small.jpg),url(/images/here/folder.jpg);
+    background-size: 30%, cover ;
+}
