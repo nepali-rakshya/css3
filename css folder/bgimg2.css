@@ -18,4 +18,6 @@ in between.
     background-repeat: no-repeat;
     background-image: url(/images/small.jpg),url(/images/here/folder.jpg);
     background-size: 30%, cover ;
+    background-position: center right; 
+    /* backgorund-position: x-axis y-axis */
 }
