@@ -1,0 +1,71 @@
+/* in this one syntax bg size is used 
+which means that the width is given and the height is 
+maintained by the aspect ratio.
+
+--------------------background-size: width;
+*/
+
+/* .container {
+    border: 2px solid red;
+    width: 800px;
+    height: 500px;
+    background-image: url(/images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+
+} */
+
+/* in this two syntax bg size is used 
+which means both the value of width and height is 
+given manually. 
+
+----------------------background-size: width height;
+*/
+
+/* .container {
+    border: 2px solid black;
+    width: 500px;
+    height: 1000px;
+    background-image: url(/images/big.jpg);
+    background-repeat: no-repeat;
+    background-size: 40% 300px;
+
+} */
+
+
+/* -----------------------THE KEYWORD SYNTAX
+
+1. auto
+2. contain 
+
+------In case of contain, the image stretches in width or height (doesn't matter which) and once it reaches the edges(of height or width) it stops stretching. It maintains its aspect ratio.
+
+3. cover
+
+------In case of cover, the image streches in both width and height to cover the edges in all directions and it even crops the image if it needs to because it tries to main the aspect ratio.
+
+ */
+
+/* ----------------------contain--------------------------- */
+
+/* .container {
+    border: 2px solid black;
+    width: 500px;
+    height: 100px;
+    background-image: url(/images/big.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+/* -----------------------cover-------------------------------*/
+
+.container {
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    background-image: url(/images/big.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
