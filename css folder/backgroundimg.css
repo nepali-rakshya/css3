@@ -43,7 +43,7 @@ given manually.
 
 3. cover
 
-------In case of cover, the image streches in both width and height to cover the edges in all directions and it even crops the image if it needs to because it tries to main the aspect ratio.
+------In case of cover, the image streches in both width and height to cover the edges in all directions and it even crops the image if it needs to because it tries to maintain the aspect ratio.
 
  */
 
