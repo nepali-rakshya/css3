@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* width is 100% by default in the browser so until you change it 
+it is always 100% */
+
+div {
+  min-height: 100vh;
+  color: rgb(19, 57, 226);
+  font-size: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.container {
+  border: 1px solid red;
+  background-image: url(/images/3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container1 {
+  border: 1px solid red;
+  background-image: url(/images/here/folder.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container2 {
+  border: 1px solid red;
+  background-image: url(/images/big.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
