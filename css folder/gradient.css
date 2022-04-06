@@ -1,0 +1,18 @@
+/* --------------------------GRADIENT------------------------- */
+body {
+  display: flex;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+}
+
+.one {
+  background: linear-gradient(red, green);
+}
+
+.two {
+  background: linear-gradient(to top, red, green);
+}
