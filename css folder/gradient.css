@@ -14,5 +14,5 @@ div {
 }
 
 .two {
-  background: linear-gradient(to top, red, green);
+  background: linear-gradient(to top left, red, green);
 }
