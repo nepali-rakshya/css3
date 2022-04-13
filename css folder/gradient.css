@@ -10,9 +10,9 @@ div {
 }
 
 .one {
-  background: linear-gradient(red, green);
+  background: linear-gradient(to top, red, green);
 }
 
 .two {
-  background: linear-gradient(to top, red, green);
+  background: linear-gradient(to top left, red, green);
 }
